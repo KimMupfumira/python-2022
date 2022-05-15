@@ -18,14 +18,14 @@ lab5:population owl:sameAs lab5:population .
 rdf:HTML a rdfs:Datatype ;
     owl:sameAs rdf:HTML .
 
-rdf:LangString a rdfs:Datatype ;
-    owl:sameAs rdf:LangString .
-
 rdf:PlainLiteral a rdfs:Datatype ;
     owl:sameAs rdf:PlainLiteral .
 
 rdf:XMLLiteral a rdfs:Datatype ;
     owl:sameAs rdf:XMLLiteral .
+
+rdf:langString a rdfs:Datatype ;
+    owl:sameAs rdf:langString .
 
 rdf:type owl:sameAs rdf:type .
 
@@ -159,7 +159,7 @@ owl:someValuesFrom owl:sameAs owl:someValuesFrom .
 owl:versionInfo a owl:AnnotationProperty ;
     owl:sameAs owl:versionInfo .
 
-<http://dbpedia.org/resource/Baoding> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Baoding> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -173,7 +173,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "10700000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Baoding> .
 
-<http://dbpedia.org/resource/Bijie> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Bijie> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -187,7 +187,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6537498"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bijie> .
 
-<http://dbpedia.org/resource/Cangzhou> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Cangzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -201,7 +201,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6800000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Cangzhou> .
 
-<http://dbpedia.org/resource/Chicago> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Chicago> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -215,7 +215,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "8604203"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chicago> .
 
-<http://dbpedia.org/resource/Fuyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Fuyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -229,7 +229,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "8360000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Fuyang> .
 
-<http://dbpedia.org/resource/Handan> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Handan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -243,7 +243,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "8499000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Handan> .
 
-<http://dbpedia.org/resource/Hengyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Hengyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -257,7 +257,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "7148344"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hengyang> .
 
-<http://dbpedia.org/resource/Jining> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Jining> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -271,7 +271,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "8023000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Jining> .
 
-<http://dbpedia.org/resource/Linyi> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Linyi> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -285,7 +285,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "10820000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Linyi> .
 
-<http://dbpedia.org/resource/Los_Angeles> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Los_Angeles> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -299,7 +299,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "12750807"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Los_Angeles> .
 
-<http://dbpedia.org/resource/Luoyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Luoyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -313,7 +313,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6549941"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Luoyang> .
 
-<http://dbpedia.org/resource/Miami> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Miami> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -327,7 +327,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6445545"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Miami> .
 
-<http://dbpedia.org/resource/Nanyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Nanyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -341,7 +341,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "12010000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanyang> .
 
-<http://dbpedia.org/resource/New_York_City> a _:ub13bL150C26,
+<http://dbpedia.org/resource/New_York_City> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -355,7 +355,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "18713220"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/New_York_City> .
 
-<http://dbpedia.org/resource/Pune> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Pune> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -369,7 +369,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "7764000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Pune> .
 
-<http://dbpedia.org/resource/Shaoyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Shaoyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -383,7 +383,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "7071000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shaoyang> .
 
-<http://dbpedia.org/resource/Tangshan> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Tangshan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -397,7 +397,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "7100000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tangshan> .
 
-<http://dbpedia.org/resource/Weifang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Weifang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -411,7 +411,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "9373000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Weifang> .
 
-<http://dbpedia.org/resource/Xinyang> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Xinyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -425,7 +425,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6634000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Xinyang> .
 
-<http://dbpedia.org/resource/Yantai> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Yantai> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -439,7 +439,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6516900"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yantai> .
 
-<http://dbpedia.org/resource/Zhumadian> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Zhumadian> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -453,7 +453,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "7640000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhumadian> .
 
-<http://dbpedia.org/resource/Zunyi> a _:ub13bL150C26,
+<http://dbpedia.org/resource/Zunyi> a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:City,
         owl:Thing ;
@@ -467,7 +467,7 @@ owl:versionInfo a owl:AnnotationProperty ;
     lab5:population "6127009"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zunyi> .
 
-lab5:oxford a _:ub13bL150C26,
+lab5:oxford a _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         owl:NamedIndividual,
         owl:Thing ;
@@ -2006,8 +2006,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     owl:equivalentProperty dbo:populationTotal ;
     owl:sameAs dbo:populationTotal .
 
-<http://dbpedia.org/resource/Ahmadabad> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Ahmadabad> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2025,8 +2025,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7410000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ahmadabad> .
 
-<http://dbpedia.org/resource/Bangalore> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Bangalore> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2044,8 +2044,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "13707000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bangalore> .
 
-<http://dbpedia.org/resource/Bangkok> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Bangkok> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2061,8 +2061,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "17066000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bangkok> .
 
-<http://dbpedia.org/resource/Beijing> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Beijing> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2078,8 +2078,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "19433000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Beijing> .
 
-<http://dbpedia.org/resource/Bogota,_New_Jersey> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Bogota,_New_Jersey> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2095,8 +2095,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "9464000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Bogota,_New_Jersey> .
 
-<http://dbpedia.org/resource/Buenos_Aires> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Buenos_Aires> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2112,8 +2112,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "16157000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Buenos_Aires> .
 
-<http://dbpedia.org/resource/Cairo> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Cairo> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2129,8 +2129,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "19372000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Cairo> .
 
-<http://dbpedia.org/resource/Changchun> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Changchun> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2148,8 +2148,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7674439"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Changchun> .
 
-<http://dbpedia.org/resource/Changsha> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Changsha> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2167,8 +2167,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7044118"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Changsha> .
 
-<http://dbpedia.org/resource/Chengdu> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Chengdu> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2186,8 +2186,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "11309000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chengdu> .
 
-<http://dbpedia.org/resource/Chennai> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Chennai> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2205,8 +2205,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "11324000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chennai> .
 
-<http://dbpedia.org/resource/Chongqing> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Chongqing> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2224,8 +2224,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7739000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Chongqing> .
 
-<http://dbpedia.org/resource/Dar_es_Salaam> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Dar_es_Salaam> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2241,8 +2241,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6698000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dar_es_Salaam> .
 
-<http://dbpedia.org/resource/Delhi> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Delhi> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2260,8 +2260,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "29617000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Delhi> .
 
-<http://dbpedia.org/resource/Dhaka> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Dhaka> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2277,8 +2277,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "15443000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dhaka> .
 
-<http://dbpedia.org/resource/Dongguan> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Dongguan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2296,8 +2296,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7981000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Dongguan> .
 
-<http://dbpedia.org/resource/Foshan> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Foshan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2315,8 +2315,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7194311"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Foshan> .
 
-<http://dbpedia.org/resource/Ganzhou> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Ganzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2334,8 +2334,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8677600"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ganzhou> .
 
-<http://dbpedia.org/resource/Guangzhou> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Guangzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2353,8 +2353,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "20902000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Guangzhou> .
 
-<http://dbpedia.org/resource/Hangzhou> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Hangzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2372,8 +2372,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6446000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hangzhou> .
 
-<http://dbpedia.org/resource/Hanoi> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Hanoi> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2389,8 +2389,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7785000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hanoi> .
 
-<http://dbpedia.org/resource/Hefei> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Hefei> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2408,8 +2408,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7457027"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hefei> .
 
-<http://dbpedia.org/resource/Heze> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Heze> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2427,8 +2427,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8750000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Heze> .
 
-<http://dbpedia.org/resource/Huanggang> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Huanggang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2446,8 +2446,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6667000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Huanggang> .
 
-<http://dbpedia.org/resource/Hyderabad> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Hyderabad> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2465,8 +2465,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "9746000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Hyderabad> .
 
-<http://dbpedia.org/resource/Istanbul> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Istanbul> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2484,8 +2484,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "15154000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Istanbul> .
 
-<http://dbpedia.org/resource/Jakarta> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Jakarta> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2501,8 +2501,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "34540000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Jakarta> .
 
-<http://dbpedia.org/resource/Karachi> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Karachi> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2520,8 +2520,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "14835000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Karachi> .
 
-<http://dbpedia.org/resource/Khartoum> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Khartoum> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2537,8 +2537,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7282000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Khartoum> .
 
-<http://dbpedia.org/resource/Kolkata> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Kolkata> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2556,8 +2556,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "17560000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kolkata> .
 
-<http://dbpedia.org/resource/Kuala_Lumpur> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Kuala_Lumpur> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2573,8 +2573,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8285000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kuala_Lumpur> .
 
-<http://dbpedia.org/resource/Kunming> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Kunming> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2592,8 +2592,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6250000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kunming> .
 
-<http://dbpedia.org/resource/Lagos> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Lagos> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2611,8 +2611,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "15279000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lagos> .
 
-<http://dbpedia.org/resource/Lahore> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Lahore> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2630,8 +2630,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "11021000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lahore> .
 
-<http://dbpedia.org/resource/Lima> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Lima> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2647,8 +2647,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "9848000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lima> .
 
-<http://dbpedia.org/resource/London> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/London> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2664,8 +2664,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "10979000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/London> .
 
-<http://dbpedia.org/resource/Lu'an> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Lu'an> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2683,8 +2683,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6090000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Lu'an> .
 
-<http://dbpedia.org/resource/Luanda> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Luanda> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2700,8 +2700,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8417000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Luanda> .
 
-<http://dbpedia.org/resource/Manila> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Manila> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2717,8 +2717,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "23088000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Manila> .
 
-<http://dbpedia.org/resource/Maoming> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Maoming> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2736,8 +2736,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6706000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Maoming> .
 
-<http://dbpedia.org/resource/Mexico_City> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Mexico_City> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2753,8 +2753,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "20996000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Mexico_City> .
 
-<http://dbpedia.org/resource/Moscow> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Moscow> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2770,8 +2770,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "17125000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Moscow> .
 
-<http://dbpedia.org/resource/Mumbai> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Mumbai> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2789,8 +2789,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "23355000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Mumbai> .
 
-<http://dbpedia.org/resource/Nagoya> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Nagoya> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2808,8 +2808,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "9113000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nagoya> .
 
-<http://dbpedia.org/resource/Nanchong> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Nanchong> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2827,8 +2827,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6183000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanchong> .
 
-<http://dbpedia.org/resource/Nanjing> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Nanjing> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2846,8 +2846,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7496000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanjing> .
 
-<http://dbpedia.org/resource/Nanning> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Nanning> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2865,8 +2865,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7153300"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nanning> .
 
-<http://dbpedia.org/resource/Nantong> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Nantong> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2884,8 +2884,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7282835"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Nantong> .
 
-<http://dbpedia.org/resource/Ningbo> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Ningbo> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2903,8 +2903,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7639000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Ningbo> .
 
-<http://dbpedia.org/resource/Onitsha> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Onitsha> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2922,8 +2922,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7635000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Onitsha> .
 
-<http://dbpedia.org/resource/Osaka> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Osaka> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2941,8 +2941,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "14977000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Osaka> .
 
-<http://dbpedia.org/resource/Paris> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Paris> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -2958,8 +2958,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "11020000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Paris> .
 
-<http://dbpedia.org/resource/Quanzhou> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Quanzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2977,8 +2977,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6480000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Quanzhou> .
 
-<http://dbpedia.org/resource/Rio_de_Janeiro> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Rio_de_Janeiro> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -2996,8 +2996,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "12272000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Rio_de_Janeiro> .
 
-<http://dbpedia.org/resource/Riyadh> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Riyadh> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -3013,8 +3013,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6881000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Riyadh> .
 
-<http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3032,8 +3032,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "13312000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Roman_Catholic_Archdiocese_of_Ho_Chi_Minh_City> .
 
-<http://dbpedia.org/resource/Santiago> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Santiago> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -3049,8 +3049,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7007000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Santiago> .
 
-<http://dbpedia.org/resource/Seoul> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Seoul> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -3066,8 +3066,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "21794000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Seoul> .
 
-<http://dbpedia.org/resource/Shanghai> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Shanghai> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3085,8 +3085,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "22120000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shanghai> .
 
-<http://dbpedia.org/resource/Shangrao> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Shangrao> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3104,8 +3104,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6579714"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shangrao> .
 
-<http://dbpedia.org/resource/Shenyang> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Shenyang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3123,8 +3123,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7105000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shenyang> .
 
-<http://dbpedia.org/resource/Shenzhen> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Shenzhen> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3142,8 +3142,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "15929000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shenzhen> .
 
-<http://dbpedia.org/resource/Shijiazhuang> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Shijiazhuang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3161,8 +3161,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "10784600"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Shijiazhuang> .
 
-<http://dbpedia.org/resource/São_Paulo> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/São_Paulo> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3180,8 +3180,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "22046000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/São_Paulo> .
 
-<http://dbpedia.org/resource/Tianjin> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Tianjin> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3199,8 +3199,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "10800000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tianjin> .
 
-<http://dbpedia.org/resource/Tokyo> a _:ub13bL150C26,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Tokyo> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         lab5:City,
@@ -3216,8 +3216,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "37977000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tokyo> .
 
-<http://dbpedia.org/resource/Tongshan> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Tongshan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3235,8 +3235,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8669000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Tongshan> .
 
-<http://dbpedia.org/resource/Wuhan> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Wuhan> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3254,8 +3254,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "8962000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Wuhan> .
 
-<http://dbpedia.org/resource/Xi'an> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Xi'an> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3273,8 +3273,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7135000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Xi'an> .
 
-<http://dbpedia.org/resource/Yancheng> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Yancheng> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3292,8 +3292,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7260240"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yancheng> .
 
-<http://dbpedia.org/resource/Yichun> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Yichun> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3311,8 +3311,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6048700"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Yichun> .
 
-<http://dbpedia.org/resource/Zhanjiang> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Zhanjiang> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3330,8 +3330,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "6900000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhanjiang> .
 
-<http://dbpedia.org/resource/Zhengzhou> a _:ub13bL150C26,
-        _:ub13bL184C49,
+<http://dbpedia.org/resource/Zhengzhou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3349,8 +3349,8 @@ dbo:populationTotal a owl:DatatypeProperty ;
     lab5:population "7005000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Zhengzhou> .
 
-<http://dbpedia.org/resource/Zhoukou> a _:ub13bL150C26,
-        _:ub13bL194C50,
+<http://dbpedia.org/resource/Zhoukou> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:City,
@@ -3369,10 +3369,10 @@ dbo:populationTotal a owl:DatatypeProperty ;
     owl:sameAs <http://dbpedia.org/resource/Zhoukou> .
 
 lab5:hasAdminCapital a owl:ObjectProperty ;
-    rdfs:domain _:ub13bL159C29,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
-    rdfs:range _:ub13bL150C26,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:AdminCapitalCity,
         owl:Thing ;
@@ -3403,8 +3403,8 @@ lab5:latitude a owl:DatatypeProperty ;
     owl:equivalentProperty lab5:latitude ;
     owl:sameAs lab5:latitude .
 
-lab5:london a _:ub13bL150C26,
-        _:ub13bL174C34,
+lab5:london a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         owl:NamedIndividual,
@@ -3442,11 +3442,11 @@ lab5:name_ascii a owl:DatatypeProperty ;
     owl:sameAs lab5:name_ascii .
 
 owl:Nothing a owl:Class ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL159C29,
-        _:ub13bL174C34,
-        _:ub13bL184C49,
-        _:ub13bL194C50,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb2,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         dbo:Country,
         lab5:AdminCapitalCity,
@@ -3727,11 +3727,11 @@ owl:Nothing a owl:Class ;
 dbo:capital a owl:FunctionalProperty,
         owl:ObjectProperty ;
     rdfs:label "has capital" ;
-    rdfs:domain _:ub13bL159C29,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
-    rdfs:range _:ub13bL150C26,
-        _:ub13bL174C34,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         owl:Thing ;
@@ -3741,7 +3741,7 @@ dbo:capital a owl:FunctionalProperty,
     owl:inverseOf lab5:isCapitalOf ;
     owl:sameAs dbo:capital .
 
-<http://dbpedia.org/resource/Angola> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Angola> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3752,7 +3752,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Angola"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Angola> .
 
-<http://dbpedia.org/resource/Argentina> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Argentina> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3763,7 +3763,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Argentina"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Argentina> .
 
-<http://dbpedia.org/resource/Bangladesh> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Bangladesh> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3774,8 +3774,8 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Bangladesh"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Bangladesh> .
 
-<http://dbpedia.org/resource/British_Hong_Kong> a _:ub13bL150C26,
-        _:ub13bL159C29,
+<http://dbpedia.org/resource/British_Hong_Kong> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:City,
         dbo:Country,
         lab5:City,
@@ -3793,7 +3793,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:population "7347000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/British_Hong_Kong> .
 
-<http://dbpedia.org/resource/Chile> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Chile> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3804,7 +3804,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Chile"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Chile> .
 
-<http://dbpedia.org/resource/Colombia> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Colombia> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3815,7 +3815,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Colombia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Colombia> .
 
-<http://dbpedia.org/resource/Egypt> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Egypt> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3826,7 +3826,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Egypt"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Egypt> .
 
-<http://dbpedia.org/resource/France> a _:ub13bL159C29,
+<http://dbpedia.org/resource/France> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3837,7 +3837,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "France"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/France> .
 
-<http://dbpedia.org/resource/Indonesia> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Indonesia> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3848,7 +3848,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Indonesia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Indonesia> .
 
-<http://dbpedia.org/resource/Malaysia> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Malaysia> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3859,7 +3859,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Malaysia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Malaysia> .
 
-<http://dbpedia.org/resource/Mexico> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Mexico> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3870,7 +3870,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Mexico"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Mexico> .
 
-<http://dbpedia.org/resource/Peru> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Peru> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3881,7 +3881,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Peru"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Peru> .
 
-<http://dbpedia.org/resource/Philippines> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Philippines> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3892,7 +3892,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Philippines"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Philippines> .
 
-<http://dbpedia.org/resource/Russia> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Russia> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3903,7 +3903,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Russia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Russia> .
 
-<http://dbpedia.org/resource/Saudi_Arabia> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Saudi_Arabia> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3914,7 +3914,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Saudi Arabia"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Saudi_Arabia> .
 
-<http://dbpedia.org/resource/South_Korea> a _:ub13bL159C29,
+<http://dbpedia.org/resource/South_Korea> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3925,7 +3925,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Korea, South"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/South_Korea> .
 
-<http://dbpedia.org/resource/Sudan> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Sudan> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3936,7 +3936,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Sudan"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Sudan> .
 
-<http://dbpedia.org/resource/Tanzania> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Tanzania> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3947,7 +3947,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Tanzania"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Tanzania> .
 
-<http://dbpedia.org/resource/Thailand> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Thailand> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3958,7 +3958,7 @@ dbo:capital a owl:FunctionalProperty,
     lab5:name "Thailand"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Thailand> .
 
-<http://dbpedia.org/resource/United_Kingdom> a _:ub13bL159C29,
+<http://dbpedia.org/resource/United_Kingdom> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -3977,13 +3977,13 @@ lab5:admin_name a owl:DatatypeProperty ;
     owl:sameAs lab5:admin_name .
 
 lab5:isFirstLevelAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub13bL150C26,
-        _:ub13bL184C49,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:FirstLevelAdminCapitalCity,
         owl:Thing ;
-    rdfs:range _:ub13bL159C29,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab5:cityIsLocatedIn,
@@ -3994,13 +3994,13 @@ lab5:isFirstLevelAdminCapitalOf a owl:ObjectProperty ;
     owl:sameAs lab5:isFirstLevelAdminCapitalOf .
 
 lab5:isSecondLevelAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub13bL150C26,
-        _:ub13bL194C50,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:SecondLevelAdminCapitalCity,
         owl:Thing ;
-    rdfs:range _:ub13bL159C29,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab5:cityIsLocatedIn,
@@ -4077,7 +4077,7 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
 "Tianjin"^^xsd:string a xsd:string ;
     owl:sameAs "Tianjin"^^xsd:string .
 
-<http://dbpedia.org/resource/Turkey> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Turkey> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4090,12 +4090,12 @@ owl:NamedIndividual owl:sameAs owl:NamedIndividual .
 
 lab5:isCapitalOf a owl:FunctionalProperty,
         owl:ObjectProperty ;
-    rdfs:domain _:ub13bL150C26,
-        _:ub13bL174C34,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         owl:Thing ;
-    rdfs:range _:ub13bL159C29,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab5:cityIsLocatedIn,
@@ -4110,9 +4110,9 @@ lab5:isCapitalOf a owl:FunctionalProperty,
 "London"^^xsd:string a xsd:string ;
     owl:sameAs "London"^^xsd:string .
 
-<http://dbpedia.org/resource/Kinshasa> a _:ub13bL150C26,
-        _:ub13bL159C29,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Kinshasa> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb2,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         dbo:Country,
         lab5:CapitalCity,
@@ -4135,9 +4135,9 @@ lab5:isCapitalOf a owl:FunctionalProperty,
     lab5:population "13528000"^^xsd:long ;
     owl:sameAs <http://dbpedia.org/resource/Kinshasa> .
 
-<http://dbpedia.org/resource/Tehran> a _:ub13bL150C26,
-        _:ub13bL159C29,
-        _:ub13bL174C34,
+<http://dbpedia.org/resource/Tehran> a _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb2,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         dbo:Country,
         lab5:CapitalCity,
@@ -4161,10 +4161,10 @@ lab5:isCapitalOf a owl:FunctionalProperty,
     owl:sameAs <http://dbpedia.org/resource/Tehran> .
 
 lab5:hasCity a owl:ObjectProperty ;
-    rdfs:domain _:ub13bL159C29,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
-    rdfs:range _:ub13bL150C26,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         owl:Thing ;
     rdfs:subPropertyOf lab5:hasCity ;
@@ -4172,11 +4172,11 @@ lab5:hasCity a owl:ObjectProperty ;
     owl:sameAs lab5:hasCity .
 
 lab5:isAdminCapitalOf a owl:ObjectProperty ;
-    rdfs:domain _:ub13bL150C26,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:AdminCapitalCity,
         owl:Thing ;
-    rdfs:range _:ub13bL159C29,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab5:cityIsLocatedIn,
@@ -4185,7 +4185,7 @@ lab5:isAdminCapitalOf a owl:ObjectProperty ;
     owl:equivalentProperty lab5:isAdminCapitalOf ;
     owl:sameAs lab5:isAdminCapitalOf .
 
-lab5:united_kingdom a _:ub13bL159C29,
+lab5:united_kingdom a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:NamedIndividual,
         owl:Thing ;
@@ -4211,7 +4211,7 @@ owl:Restriction owl:sameAs owl:Restriction .
 "Henan"^^xsd:string a xsd:string ;
     owl:sameAs "Henan"^^xsd:string .
 
-<http://dbpedia.org/resource/Vietnam> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Vietnam> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4226,10 +4226,10 @@ owl:Restriction owl:sameAs owl:Restriction .
 
 lab5:cityIsLocatedIn a owl:FunctionalProperty,
         owl:ObjectProperty ;
-    rdfs:domain _:ub13bL150C26,
+    rdfs:domain _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         owl:Thing ;
-    rdfs:range _:ub13bL159C29,
+    rdfs:range _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     rdfs:subPropertyOf lab5:cityIsLocatedIn,
@@ -4243,7 +4243,7 @@ lab5:isLocatedIn a owl:ObjectProperty ;
     owl:equivalentProperty lab5:isLocatedIn ;
     owl:sameAs lab5:isLocatedIn .
 
-<http://dbpedia.org/resource/Brazil> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Brazil> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4256,7 +4256,7 @@ lab5:isLocatedIn a owl:ObjectProperty ;
     lab5:name "Brazil"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Brazil> .
 
-<http://dbpedia.org/resource/Nigeria> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Nigeria> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4269,7 +4269,7 @@ lab5:isLocatedIn a owl:ObjectProperty ;
     lab5:name "Nigeria"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Nigeria> .
 
-<http://dbpedia.org/resource/Pakistan> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Pakistan> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4282,7 +4282,7 @@ lab5:isLocatedIn a owl:ObjectProperty ;
     lab5:name "Pakistan"^^xsd:string ;
     owl:sameAs <http://dbpedia.org/resource/Pakistan> .
 
-<http://dbpedia.org/resource/United_States> a _:ub13bL159C29,
+<http://dbpedia.org/resource/United_States> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4303,7 +4303,7 @@ owl:ObjectProperty owl:sameAs owl:ObjectProperty .
 
 owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
 
-<http://dbpedia.org/resource/Japan> a _:ub13bL159C29,
+<http://dbpedia.org/resource/Japan> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4320,8 +4320,8 @@ owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
 
 lab5:SecondLevelAdminCapitalCity a owl:Class ;
     rdfs:comment "minor - lower-level admin capital (e.g. Fayetteville, AR)" ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL194C50,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:SecondLevelAdminCapitalCity,
@@ -4329,7 +4329,7 @@ lab5:SecondLevelAdminCapitalCity a owl:Class ;
     owl:equivalentClass lab5:SecondLevelAdminCapitalCity ;
     owl:sameAs lab5:SecondLevelAdminCapitalCity .
 
-<http://dbpedia.org/resource/India> a _:ub13bL159C29,
+<http://dbpedia.org/resource/India> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4355,8 +4355,8 @@ lab5:SecondLevelAdminCapitalCity a owl:Class ;
 
 lab5:CapitalCity a owl:Class ;
     rdfs:comment "primary - country's capital (e.g. Washington D.C.)" ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL174C34,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3,
         dbo:City,
         lab5:CapitalCity,
         owl:Thing ;
@@ -4367,8 +4367,8 @@ lab5:Country owl:sameAs lab5:Country .
 
 lab5:FirstLevelAdminCapitalCity a owl:Class ;
     rdfs:comment "admin - first-level admin capital (e.g. Little Rock, AR)" ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL184C49,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4,
         dbo:City,
         lab5:AdminCapitalCity,
         lab5:FirstLevelAdminCapitalCity,
@@ -4380,14 +4380,14 @@ rdfs:Datatype owl:sameAs rdfs:Datatype .
 
 dbo:Country a owl:Class ;
     rdfs:label "Country"@en ;
-    rdfs:subClassOf _:ub13bL159C29,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         owl:Thing ;
     owl:equivalentClass dbo:Country ;
     owl:sameAs dbo:Country .
 
 lab5:AdminCapitalCity a owl:Class ;
-    rdfs:subClassOf _:ub13bL150C26,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         lab5:AdminCapitalCity,
         owl:Thing ;
@@ -4409,7 +4409,7 @@ xsd:long a rdfs:Datatype ;
 
 dbo:City a owl:Class ;
     rdfs:label "City"@en ;
-    rdfs:subClassOf _:ub13bL150C26,
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
         dbo:City,
         owl:Thing ;
     owl:equivalentClass dbo:City ;
@@ -4420,7 +4420,7 @@ owl:Thing a owl:Class ;
     owl:equivalentClass owl:Thing ;
     owl:sameAs owl:Thing .
 
-<http://dbpedia.org/resource/China> a _:ub13bL159C29,
+<http://dbpedia.org/resource/China> a _:n37cbae13cde74fecac5ec0385026b9abb2,
         dbo:Country,
         lab5:Country,
         owl:Thing ;
@@ -4525,41 +4525,41 @@ xsd:float a rdfs:Datatype ;
 xsd:string a rdfs:Datatype ;
     owl:sameAs xsd:string .
 
-_:ub13bL194C50 a owl:Restriction ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL194C50 ;
-    owl:equivalentClass _:ub13bL194C50 ;
+_:n37cbae13cde74fecac5ec0385026b9abb5 a owl:Restriction ;
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb5 ;
+    owl:equivalentClass _:n37cbae13cde74fecac5ec0385026b9abb5 ;
     owl:onProperty lab5:isSecondLevelAdminCapitalOf ;
-    owl:sameAs _:ub13bL194C50 ;
+    owl:sameAs _:n37cbae13cde74fecac5ec0385026b9abb5 ;
     owl:someValuesFrom dbo:Country .
 
-_:ub13bL174C34 a owl:Restriction ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL174C34 ;
-    owl:equivalentClass _:ub13bL174C34 ;
+_:n37cbae13cde74fecac5ec0385026b9abb3 a owl:Restriction ;
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb3 ;
+    owl:equivalentClass _:n37cbae13cde74fecac5ec0385026b9abb3 ;
     owl:onProperty lab5:isCapitalOf ;
-    owl:sameAs _:ub13bL174C34 ;
+    owl:sameAs _:n37cbae13cde74fecac5ec0385026b9abb3 ;
     owl:someValuesFrom dbo:Country .
 
-_:ub13bL184C49 a owl:Restriction ;
-    rdfs:subClassOf _:ub13bL150C26,
-        _:ub13bL184C49 ;
-    owl:equivalentClass _:ub13bL184C49 ;
+_:n37cbae13cde74fecac5ec0385026b9abb4 a owl:Restriction ;
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1,
+        _:n37cbae13cde74fecac5ec0385026b9abb4 ;
+    owl:equivalentClass _:n37cbae13cde74fecac5ec0385026b9abb4 ;
     owl:onProperty lab5:isFirstLevelAdminCapitalOf ;
-    owl:sameAs _:ub13bL184C49 ;
+    owl:sameAs _:n37cbae13cde74fecac5ec0385026b9abb4 ;
     owl:someValuesFrom dbo:Country .
 
-_:ub13bL159C29 a owl:Restriction ;
-    rdfs:subClassOf _:ub13bL159C29 ;
-    owl:equivalentClass _:ub13bL159C29 ;
+_:n37cbae13cde74fecac5ec0385026b9abb2 a owl:Restriction ;
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb2 ;
+    owl:equivalentClass _:n37cbae13cde74fecac5ec0385026b9abb2 ;
     owl:onProperty dbo:capital ;
-    owl:sameAs _:ub13bL159C29 ;
+    owl:sameAs _:n37cbae13cde74fecac5ec0385026b9abb2 ;
     owl:someValuesFrom dbo:City .
 
-_:ub13bL150C26 a owl:Restriction ;
-    rdfs:subClassOf _:ub13bL150C26 ;
-    owl:equivalentClass _:ub13bL150C26 ;
+_:n37cbae13cde74fecac5ec0385026b9abb1 a owl:Restriction ;
+    rdfs:subClassOf _:n37cbae13cde74fecac5ec0385026b9abb1 ;
+    owl:equivalentClass _:n37cbae13cde74fecac5ec0385026b9abb1 ;
     owl:onProperty lab5:cityIsLocatedIn ;
-    owl:sameAs _:ub13bL150C26 ;
+    owl:sameAs _:n37cbae13cde74fecac5ec0385026b9abb1 ;
     owl:someValuesFrom dbo:Country .
 
